@@ -1,4 +1,5 @@
 # EIN082B
-Hola Mundo
-Hoy es 22 de agosto
-Son las 16:38
+## Bienvenidos a **Taller de Lenguajes de Programación**!
+
+Esta es la pagina de inicio de nuestro repositorio. Está escrita en un lenguaje llamado _Markdown_. Puedes encontrar más información al respecto [Acá](https://docs.github.com/es/get-started/writing-on-github)
+
