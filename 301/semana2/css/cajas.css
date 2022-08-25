@@ -1,0 +1,27 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#caja1, #caja2, #caja3, #caja4{
+   
+
+box-sizing: border-box;
+padding-top: 2vw;
+text-align: center;
+font-size: 4vw;
+color:white;
+margin-left: 45vw;
+
+   /* Tamaño fijo */
+    /* width: 100px;
+    height: 100px; */
+
+    /* Tamaño relativo */
+    width: 10vw;
+    height: 10vw;
+}
+
+#caja1{ background-color: #00BCD4;}
+#caja2{ background-color: #757575;}
+#caja3{ background-color: #CDDC39;}
+#caja4{ background-color: #FF9800;}

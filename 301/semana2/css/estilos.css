@@ -1,0 +1,17 @@
+
+
+/* Regla usando selector HTML */
+p{
+    font-family: Verdana;
+}
+
+/* Regla usando selector de elemento único (Gato) */
+#primerParrafo{
+    color: blue;
+}
+
+
+/* Regla usando selector de clase (Punto) */
+.destacado{
+    background-color: yellow;
+}
