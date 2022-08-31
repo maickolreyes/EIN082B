@@ -1,0 +1,44 @@
+h1{
+    color: orange;
+    text-align: center;
+}
+
+p{
+    font-family: Verdana;
+}
+
+#uno,#dos{
+    color: green;
+}
+
+.destacado{
+    background-color: yellow;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+div{
+    width: 20vh;
+    height: 20vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 70px;
+    margin-bottom: 10px;
+    margin-left:40%;
+}
+#caja1{
+    background-color: blueviolet;
+}
+#caja2{
+    background-color: gray;
+}
+#caja3{
+    background-color: yellowgreen;
+}
+#caja4{
+    background-color: brown;
+}
