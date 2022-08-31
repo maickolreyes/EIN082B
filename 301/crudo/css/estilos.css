@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    width: 100vw;
+    height: 10vh;
+    background-color: #85D4B7;
+}
+
+#logo {
+    width: 30vw;
+    height: 10vh;
+    float: left;
+    background-image: url('../img/logo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#menu {
+    padding-top: 2vh;
+    width: 70vw;
+    height: 10vh;
+    float: left;
+}
+
+#menu ul{
+    display: inline;
+}
+
+#menu ul li {
+    float: left;
+    list-style: none;
+}
+
+#menu ul li a {
+    display: block;
+    padding: 8px;
+    margin-right: 5px;
+    color: #FFF;
+    text-decoration: none;
+    
+}
+
+
+
+#vegan {
+    width: 100vw;
+    height: 80vh;
+    background-image: url('../img/vegan.jpg');
+    background-color: #6DCCAA;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+footer {
+    width: 100vw;
+    height: 10vh;
+    background-color: #6DCCAA;
+    color: #FFF;
+  }
+
+  #direccion, #redes{
+    width: 50vw;
+    height: 10vh;
+  }
+  #direccion{
+    float:left;
+  }
+  #redes{
+    float:right;
+  }
+  #redes a{
+    color: #FFF;
+    font-size: 20px;
+  }
+
+  #redes a:hover{
+    color: #333;
+    font-size: 20px;
+  }
+
+#coaching {
+    width: 100vw;
+    height: 90vh;
+    background-color: #FFF;
+}
