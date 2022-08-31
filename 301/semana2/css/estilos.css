@@ -1,17 +1,19 @@
-
-
-/* Regla usando selector HTML */
-p{
-    font-family: Verdana;
+body{
+    font-family: Arial;
 }
 
-/* Regla usando selector de elemento único (Gato) */
-#primerParrafo{
-    color: blue;
+#primero{
+    background-color: aquamarine;
 }
 
-
-/* Regla usando selector de clase (Punto) */
 .destacado{
     background-color: yellow;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.cursiva{
+    font-style: italic;
 }
