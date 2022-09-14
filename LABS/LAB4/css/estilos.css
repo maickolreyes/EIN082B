@@ -1,0 +1,33 @@
+.text-justify{
+    text-align: justify;
+}
+
+.btn-primary{
+    background-color: #2630A7;
+}
+
+.bg-red{
+    background-color: #BF0514;
+}
+
+.card-img-top{
+    height: 30vh;
+    width: auto;
+}
+
+
+header{
+    
+    height: calc(100vh - 56px);
+    padding-top: 25vh;
+}
+
+#planes {
+    height: calc(100vh - 56px);
+    padding-top: 20vh;
+}
+
+#contacto{
+    height: calc(100vh - 96px);
+    padding-top: 20vh;
+}
