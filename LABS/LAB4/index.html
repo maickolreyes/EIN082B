@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/estilos.css">
 
+    <script src="js/countdown.js"></script>
+
 
     <title>Huesillo Inc.</title>
 </head>
@@ -19,10 +21,28 @@
     <div class="container-fluid">
 
         <header class="row">
-            <div class="col-6 pt-5">
-                <img src="img/logo.png" alt="Logo Huesillo Inc." class="mx-auto d-block">
+            <div class="col-6">
+                 <section id="timer">
+                 
+                   <span class="span">FALTAN </span><br>
+                    <div id="clock"></div>
+                    <div id="units">
+                      <span class="span">días</span>
+                      <span class="span">horas</span>
+                      <span class="span">minutos</span>
+                      <span class="span">segundos</span>
+                    </div>
+                    <br> <br>
+                    
+                </section> 
+
+                <section id="saludo">
+                    <img src="img/saludo.png">
+                </section>
+
+
             </div>
-            <div class="col-4">
+            <div id="jumbotron" class="col-4">
                 <div class="jumbotron">
                     <h1 class="display-4">Huesillo Inc.</h1>
                     <p class="lead">Fiestas a la Chilena</p>
@@ -134,17 +154,17 @@
             <div class="col-2"></div>
             <div class="col-4">
                 <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+                    <label for="txtNombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="txtNombre" placeholder="Nombre">
                 </div>
                 <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Correo Electrónico</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                    <label for="txtEmail" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="txtEmail"
                         placeholder="name@example.com">
                 </div>
                 <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Ciudad</label>
-                    <select class="form-select" aria-label="Default select example">
+                    <label for="cboCiudad" class="form-label">Ciudad</label>
+                    <select id="cboCiudad" class="form-select" >
                         <option selected>Selecciona</option>
                         <option value="1">Viña del Mar</option>
                         <option value="2">Valparaíso</option>
@@ -152,8 +172,8 @@
                     </select>
                 </div>
                 <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Tu Mensaje</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <label for="txtMensaje" class="form-label">Tu Mensaje</label>
+                    <textarea class="form-control" id="txtMensaje" rows="3"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Enviar</button>
             </div>
@@ -163,12 +183,12 @@
             <div class="col-2"></div>
         </div>
         <footer class="row">
-            <div class="col navbar bg-dark text-light">Desarrollado por: pgatica</div>
+            <div class="col navbar bg-dark text-light">Desarrollado por: pgaticac</div>
         </footer>
     </div>
 
 
-    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
     <script src="js/bootstrap.js"></script>
 
 </body>

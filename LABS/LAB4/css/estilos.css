@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
 .text-justify{
     text-align: justify;
 }
 
 .btn-primary{
-    background-color: #2630A7;
+    background-color: #4A6BA1;
 }
 
 .bg-red{
@@ -19,7 +21,10 @@
 header{
     
     height: calc(100vh - 56px);
-    padding-top: 25vh;
+}
+
+#jumbotron{
+    padding-top: 15vh;
 }
 
 #planes {
@@ -31,3 +36,77 @@ header{
     height: calc(100vh - 96px);
     padding-top: 20vh;
 }
+
+
+#timer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    z-index: 2;
+  }
+   
+  #saludo {
+    opacity: 0;
+  }
+
+  #clock span {
+    float: left;
+    text-align: center;
+    font-size: 3vw;
+    color: #ffffff;
+    padding: 2vw;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 100%;
+    box-sizing: border-box;
+    font-family: 'Rock Salt', cursive;
+}
+#clock span:nth-child(1) {
+    background: #BF0514;
+}
+#clock span:nth-child(2) {
+    background: #4A6BA1;
+}
+#clock span:nth-child(3) {
+    background: #C0C0C0;
+}
+#clock span:nth-child(4) {
+    background: #7DCDF2;
+}
+#clock:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.span {
+    float: left;
+    width: 10vw;
+    text-align: center;
+    margin-top: 1vh;
+    color: #4A6BA1;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Rock Salt', cursive;
+
+    
+}
+span.turn {
+    animation: turn 0.5s ease forwards;
+}
+@keyframes turn {
+    0% {
+        transform: rotateY(0deg)
+    }
+    100% {
+        transform: rotateY(360deg)
+    }
+}
+
+#saludo.visible {
+    opacity: 1;
+    animation: colorChange 1s ease-in-out 0.5s forwards;
+  }
